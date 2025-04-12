@@ -6,12 +6,17 @@
     <title>Formulario de Login</title>
     <style>
 
+       .block-container{
+            color:white;
+       }
+
     </style>
 </head>
 <body>
     
     <form action = "Usuario.php" method = "post">
         <h1>Tela de login</h1>
+        
         <label for ="nome">Nome:</label>
         <input type="nome" nome="nome" placeholder="Digite o seu nome">
 
