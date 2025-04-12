@@ -5,5 +5,5 @@ if(isset($_POST['nome'])){
     $email = $_POST_['email'];
     $senha = $_POST_['senha'];
 
-    $Usuario
+    $usuario = new Usuario($nome, $senha);
 }
